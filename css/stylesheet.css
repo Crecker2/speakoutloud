@@ -1,0 +1,202 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #222326;
+}
+
+a{
+	color: #1db954;
+}
+.topnav{
+	height: 75px;
+	background-color: black;
+	color: white;
+	padding-top: 9px;
+}
+
+
+.logo{
+	min-width: 180px;
+}
+
+.topnav ul{
+	padding-top: 12px;
+}
+
+@media(max-width: 878px){
+	.topnav ul{
+		display: none;
+	}
+}
+.topnav li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 5px;
+	vertical-align: middle;
+	height: 100%;
+	text-align: right;
+	cursor: pointer;
+}
+
+.topnav a{
+	color: white;
+}
+.topnav .active{
+	font-weight: bold;
+	border-bottom: 2px solid white;
+
+}
+
+header{
+	padding: 50px !important;
+	height: 100%;
+	padding-bottom: 15%;
+	width: 100%;
+	background-image: linear-gradient(90deg,#c074b2,#8ab5e8);
+	background-size: 100%;
+	max-height: 800px;
+	color: white;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	display: inline-block;
+	font-size: 72px;
+}
+
+header button{
+	margin: 15px auto;
+	display: block;
+}
+.albumart{
+	margin: 5px;
+}
+
+button{
+	color: white;
+	background-color: #1db954;
+	text-transform: uppercase;
+	border-radius: 500px;
+	min-width: 200px;
+	min-height: 50px;
+	border: none;
+	padding: 21px 56px 19px;
+	line-height: 1;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+.button{
+	color: white;
+	text-decoration: none;
+}
+.button:hover{
+	text-decoration: none;
+	color: white;
+}
+
+button:hover{
+	background-color: #1ed760;
+}
+
+button:focus{
+	outline: none;
+}
+#about{
+	min-height: 500px;
+}
+
+#about{
+	color: black;
+	padding: 35px;
+}
+
+#about h1, #details h1{
+	text-align: center;
+	width: 100%;
+	margin: 30px 0px;
+}
+
+#about h2{
+	font-weight: 900;
+	font-size: 45px;
+	text-align: center;
+	width: 100%;
+}
+
+#about .col-md-6{
+	padding: 5px 30px;
+}
+
+#about button{
+	display: block;
+	margin: 0 auto;
+}
+
+#details{
+	background-color: #eee;
+	min-height: 500px;
+	padding-bottom: 50px;
+}
+
+#details .material-icons{
+	font-size: 72px;
+	text-align: center;
+	display: block;
+}
+
+#details .col-md-4{
+	text-align: center;
+}
+
+.mikesection{
+	text-align: center;
+	margin-top: 30px;
+}
+.mike{
+	display: block;
+	margin: 0 auto;
+}
+
+.featuring p{
+	margin: 5px 0px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	min-height: 300px;
+	padding-top: 50px;
+}
+
+footer .logo{
+	margin-bottom: 50px;
+	max-width: 250px;
+	width: 100%;
+}
+footer li{
+	list-style: none;
+	display: block;
+	margin: 20px 0px;
+	font-size: 14px;
+	text-align: center;
+
+}
+footer ul h3{
+	font-size: 18px;
+	text-align: center;
+}
+
+footer li a{
+	color: white;
+}
+
+footer li a:hover{
+	color: white;
+}
