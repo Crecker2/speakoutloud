@@ -17,6 +17,7 @@ a{
 
 .logo{
 	min-width: 180px;
+	max-width: 190px;
 }
 
 .topnav ul{
@@ -76,6 +77,8 @@ header button{
 }
 .albumart{
 	margin: 5px;
+	width: 100%;
+	max-width: 343px;
 }
 
 button{
