@@ -54,19 +54,26 @@ svgDoc.append("g")
         })
         .classed("iconPlain",true);
 
-
-
 var $target = $('html,body');
 $target.animate({scrollTop: 0});
 
-var t = 10;
-$('.iconPlain').each(function(){
-    var person = $(this);
-    setTimeout(function(){
-        person.css('opacity','1');
-    },t);
-    t+=10;
+$('.number').animate({"opacity": "1"}, 2000, function(){
+    $('.sentence').animate({"opacity":"1"},2000, function(){
+        $('.legend').animate({"opacity":"1"},2000, function(){
+            window.setTimeout(function(){
+                var t = 10;
+                $('.iconPlain').each(function(){
+                    var person = $(this);
+                    setTimeout(function(){
+                        person.css('opacity','1');
+                    },t);
+                    t+=10;
+                });
+
+                $target.animate({scrollTop: $target.height()}, 21000, "linear");
+                $target.animate({scrollTop: 0});
+            },500);
+        });
+    });
 });
 
-$target.animate({scrollTop: $target.height()}, 21000, "linear");
-$target.animate({scrollTop: 0});
