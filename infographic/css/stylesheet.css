@@ -1,0 +1,53 @@
+body{
+	font-family: 'Arial', sans-serif;
+}
+
+h1{
+	font-size: 75px;
+	width: 60%;
+	margin: 0 auto;
+}
+.chart{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	margin-top: -140px;
+}
+
+.iconPlain{
+	width: 20px;
+	height: auto;
+}
+
+#legendtext{
+	font-size: 4px;	
+}
+
+#txtValue{
+	font-size: 5px;
+}
+
+.iconPlain{
+	transition: .3s all;
+	opacity: 0;
+}
+
+
+.legend svg{
+	display: inline-block;
+	width: 14%;
+}
+.legend p{
+	display: inline-block;
+	transform: translate(-26px,-26px);
+	font-size:20px;
+}
+
+.legend{
+	position: fixed;
+	bottom: 3%;
+	padding-left: 15px;
+	display: inline-block;
+	padding-top: 21px;
+	padding-bottom: 0;
+}
