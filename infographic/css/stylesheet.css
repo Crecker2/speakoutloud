@@ -7,6 +7,13 @@ h1{
 	width: 60%;
 	margin: 0 auto;
 }
+
+.number{
+	opacity: 0;
+}
+.sentence{
+	opacity: 0;
+}
 .chart{
 	display: block;
 	margin: 0 auto;
@@ -50,4 +57,5 @@ h1{
 	display: inline-block;
 	padding-top: 21px;
 	padding-bottom: 0;
+	opacity: 0;
 }
